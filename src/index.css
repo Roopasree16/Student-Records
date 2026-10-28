@@ -272,3 +272,67 @@ td {
   }
 }
 
+/* Course section */
+.course-section {
+  margin-top: 48px;
+}
+
+.course-form {
+  margin-top: 24px;
+}
+
+.save-course-btn {
+  margin-top: 16px;
+}
+
+.course-error {
+  margin: 16px 0;
+  color: #dc2626;
+}
+
+.empty-courses {
+  margin-top: 24px;
+  color: #64748b;
+}
+
+/* Course cards */
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.course-card {
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+}
+
+.course-card h3 {
+  margin: 0 0 16px;
+  color: #1e293b;
+  font-size: 20px;
+}
+
+.course-card p {
+  margin: 10px 0;
+  color: #64748b;
+}
+
+.delete-course-btn {
+  margin-top: 12px;
+  padding: 9px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #ef4444;
+  color: #fff;
+  cursor: pointer;
+}
+
+.delete-course-btn:hover {
+  background: #dc2626;
+}
+

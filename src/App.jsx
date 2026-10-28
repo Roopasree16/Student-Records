@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import StudentForm from "./components/StudentForm";
 import StudentList from "./components/StudentList";
+import CourseSection from "./components/CourseSection";
 import "./index.css";
 
 const API = "http://localhost:5000/api/students";
@@ -78,6 +79,7 @@ function App() {
         </section>
 
         <StudentList students={students} onDelete={deleteStudent} />
+        <CourseSection />
       </main>
     </>
   );
