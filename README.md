@@ -7,7 +7,7 @@ StudentDesk is a student and course management application built using React, No
 - Add, view, update, and delete courses.
 - REST API development using Express.js.
 - Middleware for logging, CORS, and API-key checking.
-- Automated testing using Jest, Mocha, and Chai.
+- Automated testing using Jest, Mocha, Chai.
 
 ## Tech Stack
 - **Frontend:** React, Vite
