@@ -1,16 +1,42 @@
-# React + Vite
+StudentDesk
+StudentDesk is a student and course management application built using React, Node.js, Express.js, and MongoDB.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Add, view, update, and delete students.
+Add, view, update, and delete courses.
+REST API development using Express.js.
+Middleware for logging, CORS, and API-key checking.
+Automated testing using Jest, Mocha, Chai.
+Tech Stack
+Frontend: React, Vite
+Backend: Node.js, Express.js
+Database: MongoDB, Mongoose
+Testing: Jest, Supertest, Mocha, Chai
+Installation
+Clone the repository:
 
-Currently, two official plugins are available:
+git clone https://github.com/YOUR_USERNAME/student-records.git
+cd student-records
+Install frontend dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm install
+Install backend dependencies:
 
-## React Compiler
+cd server
+npm install
+Create a .env file inside server/ with your MongoDB connection string and API key.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Run the Project
+Start the backend from the server folder:
 
-## Expanding the ESLint configuration
+npm run dev
+Start the frontend from the root folder in another terminal:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm run dev
+Run Tests
+From the server folder:
+
+npm test
+npm run test:mocha
+Security
+Do not upload your .env file or expose database credentials and API keys.
